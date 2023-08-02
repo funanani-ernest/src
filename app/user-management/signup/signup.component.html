@@ -1,0 +1,231 @@
+<div class="container">
+  <form
+    [formGroup]="signupForm"
+    (ngSubmit)="signup()"
+    class="form-horizontal"
+    role="form"
+  >
+    <div class="logo">
+      <img width="292px" src="../../assets/download.png" alt="" />
+    </div>
+    <h6 class="m-3">Create your account</h6>
+    <div class="row g-3">
+      <div class="col mb-3">
+        <label
+          for="inputName"
+          class="form-label"
+          [ngClass]="{
+            'validation-error-text': isTouched('Name') && !isValid('Name')
+          }"
+          >Name
+          <span
+            class="validation-error-text"
+            id="inputName"
+            autocomplete="on"
+            formControlName="Name"
+            [ngClass]="{
+              'red-border': isTouched('Name') && !isValid('Name')
+            }"
+            >*</span
+          >
+        </label>
+
+        <input
+          type="text"
+          class="form-control"
+          id="inputName"
+          formControlName="Name"
+        />
+
+        <div
+          class="validation-error-text"
+          *ngIf="getFormControl('Name').hasError('required')"
+        >
+          <i class="fa fa-exclamation-circle"></i> Please enter your name.
+        </div>
+        <div
+          class="validation-error-text"
+          *ngIf="getFormControl('Name').hasError('specialCharacters')"
+        >
+          <i class="fa-solid fa-exclamation-circle"></i> Special characters are
+          not allowed
+        </div>
+      </div>
+      <div class="col">
+        <label for="inputLastName" class="form-label"
+          >Last Name
+          <span class="validation-error-text">*</span>
+        </label>
+
+        <input
+          type="text"
+          class="form-control"
+          id="inputLastName"
+          formControlName="LastName"
+        />
+
+        <div
+          class="validation-error-text"
+          *ngIf="
+            getFormControl('LastName').touched &&
+            getFormControl('LastName').hasError('required')
+          "
+        >
+          <i class="fa fa-exclamation-circle"></i> Please enter your last name.
+        </div>
+        <div
+          class="validation-error-text"
+          *ngIf="getFormControl('LastName').hasError('specialCharacters')"
+        >
+          <i class="fa-solid fa-exclamation-circle"></i> Special characters are
+          not allowed
+        </div>
+      </div>
+    </div>
+    <div class="row g-3 mb-3">
+      <div class="col">
+        <label
+          for="inputEmail4"
+          class="form-label"
+          [ngClass]="{
+            'validation-error-text': isTouched('Email') && !isValid('Email')
+          }"
+          >Email Address <span class="validation-error-text">*</span></label
+        >
+        <input
+          type="email"
+          class="form-control"
+          id="inputEmail4"
+          autocomplete="on"
+          formControlName="Email"
+          [ngClass]="{
+            'red-border': isTouched('Email') && !isValid('Email')
+          }"
+        />
+        <div
+          class="validation-error-text"
+          *ngIf="isTouched('Email') && !isValid('Email')"
+        >
+          <div *ngIf="getFormControl('Email').hasError('required')">
+            <i class="fa-solid fa-exclamation-circle"></i> Please enter your
+            email.
+          </div>
+        </div>
+
+        <div
+          class="validation-error-text"
+          *ngIf="isTouched('Email') && !isValid('Email')"
+        >
+          <div *ngIf="getFormControl('Email').hasError('email')">
+            <i class="fa-solid fa-exclamation-circle"></i> Email not valid.
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <label for="confirmEmail" class="form-label"
+          >Confirm Email Address
+          <span class="validation-error-text">*</span></label
+        >
+        <input
+          type="email"
+          class="form-control"
+          id="confirmEmail"
+          autocomplete="on"
+          formControlName="confirmEmail"
+        />
+        <div
+          class="validation-error-text"
+          *ngIf="isTouched('confirmEmail') && !areEmailsMatching()"
+        >
+          <i class="fa-solid fa-exclamation-circle"></i> The email addresses do
+          not match.
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-3">
+      <div class="col">
+        <label
+          for="inputPassword4"
+          class="form-label"
+          [ngClass]="{
+            'validation-error-text':
+              isTouched('Password') && !isValid('Password')
+          }"
+        >
+          Password <span class="validation-error-text">*</span>
+        </label>
+        <input
+          type="password"
+          class="form-control"
+          autocomplete="on"
+          id="inputPassword4"
+          formControlName="Password"
+          [ngClass]="{
+            'red-border': isTouched('Password') && !isValid('Password')
+          }"
+        />
+        <div
+          class="validation-error-text"
+          *ngIf="isTouched('Password') && !isValid('Password')"
+        >
+          <div *ngIf="getFormControl('Password').hasError('required')">
+            <i class="fa-solid fa-exclamation-circle"></i> Please enter your
+            password.
+          </div>
+          <div *ngIf="getFormControl('Password').hasError('minlength')">
+            <i class="fa-solid fa-exclamation-circle"></i> Password must be at
+            least 6 characters long.
+          </div>
+          <div *ngIf="getFormControl('Password').hasError('passwordInvalid')">
+            <i class="fa-solid fa-exclamation-circle"></i> Password must contain
+            at least one special character and one capital letter.
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <label class="form-label"
+          >Confirm Password <span class="validation-error-text">*</span></label
+        >
+        <input
+          type="password"
+          class="form-control"
+          autocomplete="on"
+          id="inputConfirmPassword"
+          formControlName="confirmPassword"
+        />
+        <div
+          class="validation-error-text"
+          *ngIf="isTouched('confirmPassword') && !arePasswordsMatching()"
+        >
+          <i class="fa-solid fa-exclamation-circle"></i> The passwords do not
+          match.
+        </div>
+      </div>
+    </div>
+    <div class="form-group m-3">
+      <div class="validation-error-text mt-3 mb-3">
+        {{ serverErrorMessage }}
+      </div>
+    </div>
+
+    <button
+      (click)="openSignUpModal()"
+      type="submit"
+      class="btn btn-primary btn-block btn btn-sm bg-2 gradient-primary mb-0 btn-dark"
+      [disabled]="isFormInvalid"
+    >
+      Create account
+    </button>
+
+    <div class="row justify-content-center mt-3">
+      <div class="col-md-6">
+        <p class="create-account text-center">
+          Do you have an account? <a href="/login">Login</a>
+        </p>
+      </div>
+    </div>
+    <p class="journey">Your Journey to excellence starts here!</p>
+  </form>
+</div>
+<!-- <app-footer></app-footer> -->

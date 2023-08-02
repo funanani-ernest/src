@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1000" height="1000" viewBox="0 0 1000 1000" xml:space="preserve">
+<desc>Created with Fabric.js 3.5.0</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="#ffffff"/>
+<g transform="matrix(39.5257 0 0 39.5257 500 500.0001)" id="140756">
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke" transform=" translate(-12.5, -14)" d="M 16 14 h 1.5 v 2.82 l 2.44 1.41 l -0.75 1.3 L 16 17.69 V 14 m 1 -2 a 5 5 0 0 0 -5 5 a 5 5 0 0 0 5 5 a 5 5 0 0 0 5 -5 a 5 5 0 0 0 -5 -5 m 0 -2 a 7 7 0 0 1 7 7 a 7 7 0 0 1 -7 7 c -2.79 0 -5.2 -1.64 -6.33 -4 H 1 v -3 c 0 -2.66 5.33 -4 8 -4 c 0.6 0 1.34 0.07 2.12 0.2 A 6.992 6.992 0 0 1 17 10 m -7 7 c 0 -0.7 0.1 -1.38 0.29 -2 c -0.42 -0.07 -0.86 -0.1 -1.29 -0.1 c -2.97 0 -6.1 1.46 -6.1 2.1 v 1.1 h 7.19 A 6.71 6.71 0 0 1 10 17 M 9 4 a 4 4 0 0 1 4 4 a 4 4 0 0 1 -4 4 a 4 4 0 0 1 -4 -4 a 4 4 0 0 1 4 -4 m 0 1.9 A 2.1 2.1 0 0 0 6.9 8 A 2.1 2.1 0 0 0 9 10.1 A 2.1 2.1 0 0 0 11.1 8 A 2.1 2.1 0 0 0 9 5.9 Z" stroke-linecap="round"/>
+</g>
+<g transform="matrix(0.0001 0 0 0.0001 511.9988 511.9988)" id="762488">
+<g style="" vector-effect="non-scaling-stroke">
+		<g transform="matrix(1 0 0 1 0 0)" id="Icons">
+<linearGradient id="SVGID_14" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -12 -12)" x1="12" y1="0.957" x2="12" y2="22.957">
+<stop offset="0%" style="stop-color:rgb(113,255,123);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(39,244,44);stop-opacity: 1"/>
+</linearGradient>
+<circle style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: url(#SVGID_14); fill-rule: nonzero; opacity: 1;" cx="0" cy="0" r="11"/>
+</g>
+		<g transform="matrix(1 0 0 1 0 0.5062)" id="Icons">
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(164,255,166); fill-rule: nonzero; opacity: 1;" transform=" translate(-12, -12.5061)" d="M 10 17 a 1 1 0 0 1 -0.707 -0.293 l -3 -3 a 1 1 0 0 1 1.414 -1.414 L 10 14.586 l 6.293 -6.293 a 1 1 0 0 1 1.414 1.414 l -7 7 A 1 1 0 0 1 10 17 Z" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+<g transform="matrix(18.4028 0 0 18.0556 680.2528 618.3354)" id="867524">
+<g style="" vector-effect="non-scaling-stroke">
+		<g transform="matrix(1 0 0 1 0 0)" id="Icons">
+<linearGradient id="SVGID_15" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -12 -12)" x1="12" y1="0.957" x2="12" y2="22.957">
+<stop offset="0%" style="stop-color:rgb(113,255,123);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(39,244,44);stop-opacity: 1"/>
+</linearGradient>
+<circle style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: url(#SVGID_15); fill-rule: nonzero; opacity: 1;" cx="0" cy="0" r="11"/>
+</g>
+		<g transform="matrix(1 0 0 1 0 0.5062)" id="Icons">
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(164,255,166); fill-rule: nonzero; opacity: 1;" transform=" translate(-12, -12.5061)" d="M 10 17 a 1 1 0 0 1 -0.707 -0.293 l -3 -3 a 1 1 0 0 1 1.414 -1.414 L 10 14.586 l 6.293 -6.293 a 1 1 0 0 1 1.414 1.414 l -7 7 A 1 1 0 0 1 10 17 Z" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+</svg>

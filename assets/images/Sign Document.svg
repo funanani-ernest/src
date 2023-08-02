@@ -1,0 +1,9 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect id="Sign Document" width="50" height="50" fill="url(#pattern0)"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_746_31" transform="scale(0.02)"/>
+</pattern>
+<image id="image0_746_31" width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACL0lEQVR4nO2Zz0tVQRTHP27KWgnhQsoQN6GiICZtW0QpCK6kRSEKYYobcVcEXQpEapHgqtXFnX+Agguxf8BNEG2CFBE3ikYFIv64MjAXDsO97+JzZp635gsHnuceZuZz5/uGN0cICgqyoV5gyHK0UQPFQGI5fgEP/gWQpBYwsZh8B1i/RBwZMAfaut5BokuOtVHLnYkdg3iDiR2BzAKHPmFiRyAPgT6fMLFDEHzCxI5BvMHEwB4wD7RbBPkN7Is4dn00DwK3LI2Vd2rlhXqJV1JXAqQBeAWsAGvAB+DuBcfoBHoK4rNLkA5gO+ON/QH6Lc8VuQK5BvyosP0K5nYZQIbEwOqIfA1M6h+Qaf59GUBmxMALIj8t8stlAPkkBlafU42I/BeL80UBpEBhR6pUFKxVoGCtKhUFaxUoWKtKRcFaBQrWqlI9wJgO2aAo3Y44k2+QNovNjlwQdVO8qfPLFwBRi3sBTAH3KtTdAbaAn0A3lnXf6DnNGbuR6L/zABTwmag9AV5m1DYC342+l8rh6pZ4qiepdDusB95l/D9EXplvGBDrRs04DnQd+JaxoIOMxkOH8WalLWVbNG2JtmsrJSLe4FC9GW3NUaPmGfDXqFGLHADqgE2RfwQ8131eWf8RD5qpYKkJY0GnuomXHg5KX8VzEzgB3uJJqcWyLNUgLLULPCk4AWWo79xTPEtZbDjnWSuwBDTnPFewqwJAnWaLQAslVRfwGGiq9UKCgv4HnQM5tNc7rG7iPgAAAABJRU5ErkJggg=="/>
+</defs>
+</svg>
